@@ -11,9 +11,9 @@ import cv2
 import torch
 
 # Commented out IPython magic to ensure Python compatibility.
-! git clone https://github.com/ultralytics/yolov5.git
+# ! git clone https://github.com/ultralytics/yolov5.git
 # %cd yolov5
-! pip install -r requirements.txt
+# ! pip install -r requirements.txt
 
 model = torch.hub.load("ultralytics/yolov5", "yolov5s", pretrained = True)
 
