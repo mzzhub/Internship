@@ -1,7 +1,3 @@
-Based on the contents of your GitHub repository, [mzzhub/Internship](https://github.com/mzzhub/Internship), here is an updated `README.md` file that reflects the structure and details of your projects:
-
----
-
 # Data Science and Machine Learning Internship Projects
 
 This repository contains a collection of projects and assignments completed during my internship at [Softroniics](https://softroniics.com). The work encompasses various aspects of data science, machine learning, deep learning, and object detection using images, videos, and live feeds.
