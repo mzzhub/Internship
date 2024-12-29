@@ -7,7 +7,6 @@ This repository contains a collection of projects and assignments completed duri
 The repository is organized into the following directories:
 
 ```
-.
 ├── Data/               # Datasets in CSV and other formats
 ├── Images/             # Images used for object detection and visualization
 ├── Notebooks/          # Jupyter notebooks for data analysis and model development
