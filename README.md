@@ -44,7 +44,7 @@ For more information about the course or Softroniics, please visit their officia
 ## How to Use This Repository
 1. Clone the repository to your local system using:
    ```bash
-   git clone https://github.com/yourusername/yourrepository.git
+   git clone https://github.com/mzzhub/Internship.git
    ```
 2. Navigate to the desired folder to access notebooks, images, or datasets.
 3. Run the Jupyter notebooks on your local machine:
