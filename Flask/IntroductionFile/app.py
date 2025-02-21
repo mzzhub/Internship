@@ -27,4 +27,4 @@ def ss():
     return render_template('solar_system.html')
 
 if __name__ == '__main__':                          # Ensures the script runs only when executed directly
-    app.run(host='0.0.0.0', port=5000, debug=True)  # Runs the Flask application on port 5000 with debug mode enabled
+    app.run(host = '0.0.0.0', port = 5000, debug = True)  # Runs the Flask application on port 5000 with debug mode enabled
