@@ -8,7 +8,7 @@ def home():                 # Function that runs when a user visits the root URL
 
 @app.route('/<name>')                                       # Dynamic URL that accepts a 'name' parameter
 def temp(name):                                             # Function that renders an HTML template with the given name
-    return render_template('doc1.html', name_input = name)   # Loads and returns 'doc.html' from the templates/ folder
+    return render_template('doc1.html', name_input = name)  # Loads and returns 'doc.html' from the templates/ folder
 
 @app.route('/<name>/<int:age>')
 def name_age(name, age):
@@ -26,5 +26,6 @@ def military(age):                                                  # Function t
 def ss():
     return render_template('solar_system.html')
 
-if __name__ == '__main__':                          # Ensures the script runs only when executed directly
-    app.run(host = '0.0.0.0', port = 5000, debug = True)  # Runs the Flask application on port 5000 with debug mode enabled
+if __name__ == '__main__':                                  # Ensures the script runs only when executed directly
+    app.run(host = '0.0.0.0', port = 5000, debug = True)    # Runs the Flask application on port 5000 with debug mode enabled
+    
